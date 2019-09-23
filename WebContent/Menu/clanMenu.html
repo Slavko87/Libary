@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <a href="/Libary/Biblioteka.jsp" class="navbar-brand">HOME</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+            
+            <div class="nav-item dropdown">
+	            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Knjige</a>
+	            	<div class="dropdown-menu">
+	                    <a href="/Libary/Knjiga/pretragaKnjige.jsp" class="dropdown-item">Pretraga knjige</a>
+	                </div>
+	         </div>
+	         <div class="nav-item dropdown">
+	            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Autori</a>
+	            	<div class="dropdown-menu">
+	                    <a href="/Libary/Autor/pretragaAutora.jsp" class="dropdown-item">Pretraga autora</a>
+	                </div>
+	         </div>
+	         <div class="nav-item dropdown">
+	            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Evidencija</a>
+	            	<div class="dropdown-menu">
+	                    <a href="/Libary/Evidencija/prikazSvihEvidencijaClana.jsp" class="dropdown-item">Prikaz SVIH evidencija</a>
+	                    <a href="/Libary/Evidencija/prikazZaduzenihKnjigaClana.jsp" class="dropdown-item">Prikaz zaduzenih knjiga</a>
+	                </div>
+	         </div>
+	            <a href="/Libary/ServletLogin" class="nav-item nav-link">Izloguj se</a>
+	        
+        </div>
+        <form class="form-inline ml-auto">
+            <input type="text" class="form-control mr-sm-2" placeholder="Search">
+            <button type="submit" class="btn btn-outline-light">Search</button>
+        </form>
+    </div>
+</nav>

@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <a href="/Libary/Biblioteka.jsp" class="navbar-brand">HOME</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+            
+            <div class="nav-item dropdown">
+	            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Knjige</a>
+	            	<div class="dropdown-menu">
+	                    <a href="/Libary/Knjiga/unosKnjige.jsp" class="dropdown-item">Unos nove knjige</a>
+	                    <a href="/Libary/Knjiga/izmenaKnjige.jsp" class="dropdown-item">Izmena knjige</a>
+	                    <a href="/Libary/Knjiga/brisanjeKnjige.jsp" class="dropdown-item">Brisanje knjige</a>
+	                    <a href="/Libary/Knjiga/pretragaKnjige.jsp" class="dropdown-item">Pretraga knjige</a>
+	                </div>
+	         </div>
+	         <div class="nav-item dropdown">
+	            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Autori</a>
+	            	<div class="dropdown-menu">
+	                    <a href="/Libary/Autor/unosAutora.jsp" class="dropdown-item">Unos novog autora</a>
+	                    <a href="/Libary/Autor/izmenaAutora.jsp" class="dropdown-item">Izmena autora</a>
+	                    <a href="/Libary/Autor/brisanjeAutora.jsp" class="dropdown-item">Brisanje autora</a>
+	                    <a href="/Libary/Autor/pretragaAutora.jsp" class="dropdown-item">Pretraga autora</a>
+	                </div>
+	         </div>
+	         <div class="nav-item dropdown">
+	            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Evidencija</a>
+	            	<div class="dropdown-menu">
+	                    <a href="/Libary/Evidencija/unosEvidencija.jsp" class="dropdown-item">Unos evidencije</a>
+	                    <a href="/Libary/Evidencija/razduzivanjeKnjige.jsp" class="dropdown-item">Razduzivanje knjige</a>
+	                    <a href="/Libary/Evidencija/prikazSvihEvidencija.jsp" class="dropdown-item">Prikaz SVIH evidencija</a>
+	                    <a href="/Libary/Evidencija/prikazZaduzenihKnjiga.jsp" class="dropdown-item">Prikaz zaduzenih knjiga</a>
+	                </div>
+	         </div>
+	            <a href="/Libary/ServletLogin" class="nav-item nav-link">Izloguj se</a>
+	        
+        </div>
+        <form class="form-inline ml-auto">
+            <input type="text" class="form-control mr-sm-2" placeholder="Search">
+            <button type="submit" class="btn btn-outline-light">Search</button>
+        </form>
+    </div>
+</nav>
